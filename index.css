@@ -1,0 +1,253 @@
+body{
+background-image: url('background.jpg');
+width: 100%;
+  }
+  
+  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:skyblue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: serif;
+  font-size: 17x;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:blue;
+}
+
+  
+/* heading style */
+
+  .head1{
+   color: lightblue;
+   font-size: 50px;
+   font-family: cursive;
+   font-weight: bold;
+   text-align: center;
+  }
+
+  .para{
+      text-align: center;
+      color: lavenderblush;
+      font-size: 30px;
+      font-family: georgia;
+
+  }
+
+  .head2{
+      font-size: 20px;
+      font-family: georgia;
+      font-weight: bold;
+      text-align: center;
+      color: lightblue;
+  }
+/*End of Home style*/
+
+/* -- About style--*/
+.about{
+    background-color:lightskyblue; /* background color */
+  }
+/* heading style */
+  .head{
+    color:black;
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+  }
+
+  .contnt{
+    font-size: 20px;
+    font-family: georgia;
+    color:black;
+    text-align: center;
+  }
+
+ 
+  
+
+/*End of about style*/
+
+/*Project style*/
+
+.proj-head{
+  font-size: 40px;
+  font-family: cursive;
+  color: aliceblue;
+  text-align: center;
+}
+
+.row{
+  display: inline-flex;
+ }
+
+ .flexbox
+ {
+   display: flex;
+   justify-content: space-around;
+   margin: 60px;
+   flex-direction: row;
+   height: 220px;
+   justify-content: flex-end;
+   justify-content: space-between;
+   margin-top: 40px;
+ }
+ .flexbox img{
+   height:300px;
+ }
+
+.button{
+
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:black;
+    background-color: skyblue;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 9px grey;
+    display: inline-flex;
+  }
+  
+  .button:hover {background-color: blue}
+  
+  .button:active {
+    background-color: blue;
+    box-shadow: 0 5px grey;
+    transform: translateY(4px);
+  }
+
+  .btn{
+
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:black;
+    background-color: skyblue;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 9px grey;
+    display: inline-flex;
+  }
+  
+  .btn:hover {background-color: lightskyblue}
+  
+  .btn:active {
+    background-color: violet;
+    box-shadow: 0 5px grey;
+    transform: translateY(4px);
+  }
+
+  .cont{
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: left;
+  }
+
+  .content{
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: right;
+  }
+
+/* Contact page style*/
+  .contact{
+    background-color:white;
+  }
+
+  
+  .container{
+    background-color: lightblue;
+    font-size: 20px;
+    color: teal;
+    margin-top: 150px;
+  }
+  
+  .section-heading h1{
+    font-size: 40px;
+    font-family:cursive;
+    color: turquoise;
+    text-align: center;
+    font-weight: 800;
+    position: relative;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  
+  }
+.section-hesding h1::before,
+.section-heading h1::after{
+  content:'';
+  position:absolute;
+  bottom:-.5rem;
+  left:50%;
+  transform:translateX(-50%);
+  background-color: teal;
+}
+
+  .section-heading{
+    text-align: center;
+    margin-bottom:10rem;
+  }
+
+  .section-heading h1::before{
+    width: 10rem;
+    height:3px;
+    border-radius: .8rem;
+  }
+
+  .section-heading h1::after{
+    width: 1.5rem;
+    height:1.5rem;
+    border-radius: 100%;
+    bottom: -1rem;
+  }
+
+.que{
+  font-size: 30px;
+  font-family: Georgia;
+  color: turquoise
+}
+
+/* footer*/
+  .copy{
+    color: black;
+    font-size: 15px;
+    font-family: cursive;
+    background-color: lightskyblue;
+    opacity: 60%;
+  }
+
+  .icons{
+    display: inline-flex;
+    justify-content: center;
+    align-items:center ;
+    padding: 0px;
+    margin: 0px;
+  }
